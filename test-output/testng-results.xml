@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16519" started-at="2022-11-17T20:56:29Z" finished-at="2022-11-17T20:56:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16519" started-at="2022-11-17T20:56:29Z" finished-at="2022-11-17T20:56:46Z">
+      <class name="org.test.TestAutomation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.test.TestAutomation@31a5c39e]" name="setup" is-config="true" duration-ms="3897" started-at="2022-11-17T20:56:29Z" finished-at="2022-11-17T20:56:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginValidation()[pri:1, instance:org.test.TestAutomation@31a5c39e]" name="loginValidation" duration-ms="2414" started-at="2022-11-17T20:56:33Z" finished-at="2022-11-17T20:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method status="PASS" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:org.test.TestAutomation@31a5c39e]" name="afterTestMethod" is-config="true" duration-ms="258" started-at="2022-11-17T20:56:35Z" finished-at="2022-11-17T20:56:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginValidation status=SUCCESS method=TestAutomation.loginValidation()[pri:1, instance:org.test.TestAutomation@31a5c39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="verifyTheBalance()[pri:2, instance:org.test.TestAutomation@31a5c39e]" name="verifyTheBalance" duration-ms="1749" started-at="2022-11-17T20:56:36Z" finished-at="2022-11-17T20:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheBalance -->
+        <test-method status="PASS" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:org.test.TestAutomation@31a5c39e]" name="afterTestMethod" is-config="true" duration-ms="278" started-at="2022-11-17T20:56:37Z" finished-at="2022-11-17T20:56:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheBalance status=SUCCESS method=TestAutomation.verifyTheBalance()[pri:2, instance:org.test.TestAutomation@31a5c39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="transeferFund()[pri:3, instance:org.test.TestAutomation@31a5c39e]" name="transeferFund" duration-ms="1764" started-at="2022-11-17T20:56:38Z" finished-at="2022-11-17T20:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transeferFund -->
+        <test-method status="PASS" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:org.test.TestAutomation@31a5c39e]" name="afterTestMethod" is-config="true" duration-ms="292" started-at="2022-11-17T20:56:40Z" finished-at="2022-11-17T20:56:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=transeferFund status=SUCCESS method=TestAutomation.transeferFund()[pri:3, instance:org.test.TestAutomation@31a5c39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="transcationFund()[pri:4, instance:org.test.TestAutomation@31a5c39e]" name="transcationFund" duration-ms="757" started-at="2022-11-17T20:56:40Z" finished-at="2022-11-17T20:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transcationFund -->
+        <test-method status="PASS" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:org.test.TestAutomation@31a5c39e]" name="afterTestMethod" is-config="true" duration-ms="301" started-at="2022-11-17T20:56:41Z" finished-at="2022-11-17T20:56:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=transcationFund status=SUCCESS method=TestAutomation.transcationFund()[pri:4, instance:org.test.TestAutomation@31a5c39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="ContactValidation()[pri:5, instance:org.test.TestAutomation@31a5c39e]" name="ContactValidation" duration-ms="2477" started-at="2022-11-17T20:56:41Z" finished-at="2022-11-17T20:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactValidation -->
+        <test-method status="PASS" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:org.test.TestAutomation@31a5c39e]" name="afterTestMethod" is-config="true" duration-ms="283" started-at="2022-11-17T20:56:43Z" finished-at="2022-11-17T20:56:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactValidation status=SUCCESS method=TestAutomation.ContactValidation()[pri:5, instance:org.test.TestAutomation@31a5c39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="signOff()[pri:6, instance:org.test.TestAutomation@31a5c39e]" name="signOff" duration-ms="852" started-at="2022-11-17T20:56:44Z" finished-at="2022-11-17T20:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOff -->
+        <test-method status="PASS" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:org.test.TestAutomation@31a5c39e]" name="afterTestMethod" is-config="true" duration-ms="394" started-at="2022-11-17T20:56:44Z" finished-at="2022-11-17T20:56:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signOff status=SUCCESS method=TestAutomation.signOff()[pri:6, instance:org.test.TestAutomation@31a5c39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.test.TestAutomation@31a5c39e]" name="tearDown" is-config="true" duration-ms="755" started-at="2022-11-17T20:56:45Z" finished-at="2022-11-17T20:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.test.TestAutomation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
